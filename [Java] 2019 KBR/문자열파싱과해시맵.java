@@ -14,7 +14,7 @@ class Solution {
             String[] info = record[i].split(" ");
             if(!info[0].equals("Leave"))
                 map.put(info[1], info[2]);
-            if(!info[0].equals("Change"))
+            if(!info[0].equals("Change"))a
                 len++;
         }
 
