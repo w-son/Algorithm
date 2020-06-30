@@ -5,6 +5,7 @@ class Solution {
 
         Queue<Integer> wait = new LinkedList<>();
         Queue<Integer> move = new LinkedList<>();
+
         for(int i=0; i<truck_weights.length; i++)
             wait.add(truck_weights[i]);
         for(int i=0; i<bridge_length; i++)
